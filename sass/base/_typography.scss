@@ -1,0 +1,121 @@
+
+// .heading-primary {
+//   color: red;
+//   text-transform: uppercase;
+//   backface-visibility: hidden;
+//   margin-bottom: 6rem;
+
+//   &--main {
+//     display: block;
+//     font-size: 6rem;
+//     font-weight: 700;
+//     letter-spacing: 3.5rem;
+
+//   }
+
+//   &--sub {
+//     display: block;
+//     font-size: 2rem;
+//     font-weight: 700;
+//     letter-spacing: 1.75rem;
+//     animation: moveInRight 1s ease-out; 
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   /*
+//       animation-delay: 3s;
+//       animation-iteration-count: 3; */
+//   /* display: block; is use to  */ }
+  
+//     /* animation ease-out it means is going slowwer in end of animation */
+//     animation-name: moveInLeft;
+//     animation-duration: 1s;
+//     animation-timing-function: ease-out; }
+  
+
+// .heading-secondary {
+//   font-size: 3.5rem;
+//   text-transform: uppercase;
+//   font-weight: 700;
+//   display: inline-block;
+//   background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+//   -webkit-background-clip: text;
+//   color: transparent;
+//   letter-spacing: .2rem;
+//   transition: all .2s;
+//  }
+//   .heading-secondary:hover {
+//     transform: skewY(2deg) skewX(15deg) scale(1.1);
+//     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+// .heading-tertiary {
+//   font-size: 1.6rem;
+//   font-weight: 700;
+//   text-transform: uppercase; }
+
+// /* It not applying for last child */
+// .paragraph {
+//   font-size: 1.6rem; }
+//   .paragraph:not(:last-child) {
+//     margin-bottom: 3rem; }
+
+// .u-center-text {
+//   text-align: center; }
+
+// .u-margin-bottom-small {
+//   margin-bottom: 1.5rem; }
+
+// .u-margin-bottom-medium {
+//   margin-bottom: 4rem; }
+
+// .u-margin-bottom-big {
+//   margin-bottom: 8rem; }
+
+// /* we want to visited state look like link it wil no change, border-radius */
+
+
+// /* It not applying for last child */
+// .paragraph {
+//     font-size: $default-font-size;
+    
+//     &:not(:last-child){
+//       margin-bottom: 3rem;
+//     }
+// }
