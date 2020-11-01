@@ -56,7 +56,7 @@ body {
   color: transparent;
   letter-spacing: .2rem;
   transition: all .2s;
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
   backface-visibility: hidden;
   animation-name: moveInLeft;
   animation-duration: 1s;
