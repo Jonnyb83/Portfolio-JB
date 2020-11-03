@@ -74,7 +74,7 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
-  background-image: linear-gradient(to right bottom, rgba(126, 126, 126, 0.55), rgba(71, 71, 71, 0.75));
+  background-image: linear-gradient(to right bottom, #06d0eb, #06187e);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem; }
@@ -316,21 +316,29 @@ hr {
   gap: 400px;
   grid-template-columns: repeat(auto-fill, minmax(400px, 2fr)); }
 
+.project {
+  background-image: linear-gradient(to right bottom, rgba(126, 126, 126, 0.55), rgba(71, 71, 71, 0.75)); }
+
 /*All children imges inside box sellector*/
 .box > img {
-  width: 100%; }
+  width: 100%;
+  transition: all 1s; }
+
+img:hover {
+  transform: scale(1.05);
+  border-radius: 2px; }
 
 .box {
-  background-image: linear-gradient(to right bottom, rgba(126, 126, 126, 0.55), rgba(71, 71, 71, 0.75));
   padding: 30px;
-  margin: 0; }
+  margin-top: 20rem;
+  margin-bottom: 2rem;
+  transition: all 1s; }
 
 .text-box {
   font-size: 2rem; }
 
 .zone {
   /*padding:30px 50px; */
-  background-color: #e6e6e6;
   margin-top: 0;
   margin-bottom: 0;
   cursor: pointer;
@@ -338,8 +346,7 @@ hr {
   color: #FFF;
   font-size: 1rem;
   border-radius: 4px;
-  border: 1px solid #bbb;
-  transition: all 0.3s linear; }
+  border: 1px solid #bbb; }
 
 .zone:hover {
   -webkit-transform: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;

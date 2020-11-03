@@ -1,0 +1,152 @@
+body {
+	font-family: rail;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h2 {
+	height: 10vh;
+	color: white;
+	vertical-align: center;
+	background-image: linear-gradient(
+			to right bottom,
+            rgba(72, 175, 203, 0.8),
+            rgba(18, 30, 125, 1));
+	font-family: fantasy;
+	font-size: 2rem;
+	border-right: 2px solid pink;
+	border-bottom: 2px solid pink;
+	width: 100%;
+	letter-spacing: 3px;
+	text-align: center;
+	/* It means will be shown in all supported browsers */
+	-moz-box-shadow: 4px 4px 5px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px 5px #888888;
+	-o-box-shadow: 4px 4px 5px 5px #888888;
+	box-shadow: 4px 4px 5px 5px #888888;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	transition: all .5s;
+	
+}
+
+h2:hover {
+	transform: scale(1.02);
+}
+
+
+img {
+
+	transition: all .25s;
+	transition-delay: .05s;
+	backface-visibility: none;
+
+}
+
+img:hover {
+	transform: scale(1.01);
+	border-radius: .2rem;
+	box-shadow: 0px 10px 15px gray;
+}
+.img1  {
+	width: 369px;
+	height: 246px;
+	
+}
+.img2 {
+	width: 369px;
+	height: 246px;
+	
+}
+.img3 {
+	width: 746px;
+	height: 500px;
+	
+}
+.img4 {
+	width: 495px;
+	height: 330px;
+	
+}
+
+.img1-first {
+	margin: 4px 4px 4px 8px;
+}
+
+.img1-second {
+	margin: 4px 4px 4px 4px;
+}
+
+.img1-third {
+	margin: 4px 4px 4px 4px;
+}
+
+.img1-fourth {
+	margin: 4px 8px 4px 4px;
+}
+
+.img2-first {
+	margin: 0px 0px 4px 0px;
+}
+
+.img2-second {
+	margin: 0px 0px 4px 0px;
+}
+
+.img2-third {
+	margin: 4px 0px 0px 0px;
+}
+
+.img2-fourth {
+	margin: 4px 0px 0px 0px;
+}
+
+.img3-first {
+	margin: 4px 4px 4px 4px;
+}
+
+.img4-first {
+	margin: 4px 4px 8px 8px;
+}
+
+.img4-second {
+	margin: 4px 4px 8px 4px;
+}
+
+.img4-third {
+	margin: 4px 8px 8px 4px;
+}
+
+h1:hover {
+	transform: scale(1.2);
+}
+
+.card {
+	background-color: white;
+
+	
+}
+.card-two {
+		width: 369px;
+		height: 500px;
+}
+
+.card-two-first {
+		margin: 4px 4px 4px 8px;
+}
+
+.card-two-second {
+		margin: 0px 8px 4px 4px;
+}
+
+.flex-container {
+	flex-wrap: wrap;
+}
