@@ -150,7 +150,7 @@ body {
   color: #474747;
   font-weight: 700;
   text-transform: bold;
-  margin-top: 10rem;
+  margin-top: 5rem;
   letter-spacing: 0.15rem; }
   .btn--gray--sub {
     margin-left: 3rem; }
@@ -222,13 +222,13 @@ body {
     transform: translate(0); } }
 
 .myfoto {
-  height: 17rem;
+  height: 14rem;
   width: auto;
   float: left;
   margin-right: 4rem;
   border-radius: .6rem;
   transition: all .75s;
-  box-shadow: rgba(0, 0, 0, 0.25); }
+  box-shadow: rgba(0, 0, 0, 0.55); }
   .myfoto:hover {
     transform: scale(1.25); }
 
@@ -335,7 +335,8 @@ img:hover {
   transition: all 1s; }
 
 .text-box {
-  font-size: 2rem; }
+  font-size: 1.5rem;
+  padding-top: .2rem; }
 
 .zone {
   /*padding:30px 50px; */

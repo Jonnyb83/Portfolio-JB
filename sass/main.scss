@@ -181,7 +181,7 @@ body {
     background-color: $color-white;
     color: #327ded;
     font-weight: 700;
-    text-transform: bold;;
+    text-transform: bold;
     margin-top: 3rem;
     letter-spacing: 0.15rem; }
    
@@ -203,7 +203,7 @@ body {
     color: $color-gray-dark;
     font-weight: 700;
     text-transform: bold;;
-    margin-top: 10rem;
+    margin-top: 5rem;
     letter-spacing: 0.15rem;
 
     &--sub {
@@ -289,13 +289,13 @@ body {
 }
 
 .myfoto {
-  height: 17rem;
+  height: 14rem;
   width: auto;
   float: left;
   margin-right: 4rem;
   border-radius: .6rem;
   transition: all .75s;
-  box-shadow: rgba($color-black, .25);
+  box-shadow: rgba($color-black, .55);
 
   &:hover {
     transform: scale(1.25);
@@ -447,7 +447,8 @@ hr {
 }
 
 .text-box {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding-top: .2rem;
 }
 
 .zone {

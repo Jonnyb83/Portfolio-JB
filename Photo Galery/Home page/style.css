@@ -2,6 +2,7 @@ body {
 	font-family: rail;
 	margin: auto;
 	background-color: #ffffff;
+	display: flexbox;
 }
 
 
@@ -149,4 +150,12 @@ h1:hover {
 
 .flex-container {
 	flex-wrap: wrap;
+}
+
+.grid-wrapper {
+    display: grid;
+    display: inline-flex;
+    gap: 400px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+
 }
