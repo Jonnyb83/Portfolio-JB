@@ -30,7 +30,7 @@
 	flex-wrap: wrap;
 	border: solid 2px blue;
 	align-content: space-between;
-	flex-basis: 400px;
+	flex-basis: 600px;
 	flex-grow: 1;
 
 }
@@ -38,7 +38,6 @@
 .item {
 	height: 200px;
 	width: 270px;
-	background-color: # C0C0C0;
 	padding: 10px;
 	margin: 10px;
 	color: #fff;
@@ -72,7 +71,7 @@
 	}
 }
 
-@media (min-width: 700px) and (max-width: 1200px) {
+@media (min-width: 600px) and (max-width: 1200px) {
   .responsive {
     width: 50%;
     height: auto;
