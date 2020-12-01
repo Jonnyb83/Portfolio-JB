@@ -97,14 +97,25 @@ body {
   letter-spacing: .2rem; }
   .header-second-text-box_grid {
     display: grid;
-    gap: 40px;
+    gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
 
 @media screen and (max-width: 600px) {
   .break {
     font-size: 50%;
-    padding: 0.5rem;
-    margin: 0.5rem; } }
+    padding: 1.5rem;
+    margin: 1.5rem;
+    vertical-align: center; }
+  .project {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+  .box {
+    padding: 0;
+    margin: 0;
+    transition: all 1s;
+    width: 34rem;
+    height: auto; } }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -232,9 +243,9 @@ body {
   .myfoto:hover {
     transform: scale(1.25); }
 
-.project-section {
-  margin-left: 5rem; }
-  .project-section--card {
+.project {
+  margin-left: 0; }
+  .project--card {
     width: 95%;
     height: 47rem;
     margin: none;
@@ -244,13 +255,13 @@ body {
     margin-top: 3rem;
     padding: 3rem;
     font-size: 1.5rem; }
-  .project-section--paragraph {
+  .project--paragraph {
     margin-top: 3rem;
     text-align: left;
     width: fit-content;
     top: 20rem;
     text-transform: uppercase; }
-  .project-section--tatras {
+  .project--tatras {
     height: 35rem;
     width: auto;
     float: right;
@@ -259,9 +270,9 @@ body {
     border-radius: .6rem;
     transition: all .75s;
     box-shadow: rgba(0, 0, 0, 0.75); }
-    .project-section--tatras:hover {
+    .project--tatras:hover {
       transform: scale(1.05); }
-  .project-section--heading--sub {
+  .project--heading--sub {
     text-transform: uppercase; }
 
 .footer {
